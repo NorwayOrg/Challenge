@@ -1,0 +1,15 @@
+material Ball/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ball.png
+        filtering anistropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
